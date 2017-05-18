@@ -450,7 +450,7 @@
 		var dt = event.originalEvent.dataTransfer,
 			files = dt.files,
 			count = files.length,
-			acceptedFileExtensions = /^.*\.(ttf|otf|woff)$/i;
+			acceptedFileExtensions = /^.*\.(ttf|otf|woff|woff2)$/i;
 
 		preventActions(event);
 
