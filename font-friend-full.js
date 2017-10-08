@@ -326,7 +326,7 @@
 		}
 
 		// exit early if we already have a list
-		if ( existingUl.size() === 1 ) {
+		if ( existingUl.length === 1 ) {
 			existingUl.append(html);
 			return buildFamilies();
 		}
