@@ -59,7 +59,7 @@
 		$ = window.jQuery;
 
 		// check if it's already been added. saves against weirdness if clicked again.
-		if ( $('#font-friend').size() !== 0 ) {
+		if ( $('#font-friend').length !== 0 ) {
 			return false;
 		}
 
